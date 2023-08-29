@@ -176,30 +176,55 @@ figcaption p {
     gap: 20px;
 }
 
-.background {
+.background-container {
     justify-content: center;
-    background-image: url('images/Rectangle\ 9.png');
-    background-repeat: no-repeat;
     margin-top: 50px;
-    padding: 240px;
+    padding: 100px;
+}
+
+.background-text {
     text-align: center;
+}
+
+.background-input {
+    text-align: center;
+}
+
+.background-titale {
+    background-image: url('images/Rectangle 9.png');
+    background-repeat: no-repeat;
+    padding: 240px;
     font-size: 24px;
-    font-style: normal;
     font-weight: 200px
+}
+
+.background-titale input[type=email],
+textarea {
+    padding: 15px 30px;
+    color: white;
+    border-radius: 5px;
+    background: #FFF;
+    border: 0;
+    width: 50%;
 }
 
 .footer-head {
     text-align: center;
-    font-size: 24px;
+    font-size: 30px;
     padding: 20px 40px 0 40px;
 }
 
-.footer-item {
+.footer-container {
     background-color: #1a0207;
     text-align: center;
+    height: 400px;
 }
 
-.footer-para {
+.footer-all {
+    padding: 80px;
+}
+
+.footer-description {
     color: rgb(201, 193, 193);
     font-size: 15px;
     line-height: 15px;
@@ -207,7 +232,7 @@ figcaption p {
     padding: 0 30px 0 30px;
 }
 
-.footer-tail {
+.footer-titale {
     color: #ebdbde;
     padding-bottom: 40px
 }
@@ -218,4 +243,9 @@ figcaption p {
 
 .text-shop {
     color: white;
+}
+
+a {
+    text-decoration: none;
+    color: #E55473;
 }
