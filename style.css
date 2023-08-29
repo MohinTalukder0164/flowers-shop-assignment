@@ -1,28 +1,32 @@
-*{  
+* {
     margin: 0;
     box-sizing: border-box;
 }
-.header-container{
-    background-color:#f9eaed ;
+
+.header-container {
+    background-color: #f9eaed;
     justify-content: space-between;
     align-items: center;
     display: flex;
     width: 100%;
     height: 850px;
 }
-.header-description{
+
+.header-description {
     color: rgba(39, 39, 39, 0.60);
     font-family: Lato;
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
 }
-.banner{
-    padding:0 40px 40px 40px ;
+
+.banner {
+    padding: 0 40px 40px 40px;
     width: 50%;
     margin-left: 50px;
 }
-.header-titale{
+
+.header-titale {
     color: #272727;
     font-family: Lato;
     font-size: 80px;
@@ -30,13 +34,15 @@
     font-weight: 700;
     line-height: normal;
 }
-.profile-pic{
+
+.profile-pic {
     margin-right: 50px;
     width: 600px;
     height: 750px;
 
 }
-.btn-primary{
+
+.btn-primary {
     display: inline-flex;
     padding: 20px 43px;
     align-items: flex-start;
@@ -49,4 +55,202 @@
     font-size: 20px;
     font-weight: 700;
     line-height: normal;
+}
+
+.section title {
+    text-align: center;
+}
+
+.greeting {
+    font-family: Lato;
+    font-size: 80px;
+    font-weight: 80px;
+}
+
+.header-container.profile-pic {
+    width: 635px;
+    height: 800px;
+}
+
+.body {
+    padding: 0 140px 147px 140px;
+}
+
+.featured-container {
+    padding: 100px;
+    font-family: Lato;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.featured-titale {
+    text-align: center;
+}
+
+.featured-flowers {
+    display: flex;
+    text-align: center;
+    gap: 10px;
+}
+
+.featured-text p {
+    display: inline;
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 24px;
+    margin: 70px;
+    margin-top: 30px;
+    font-weight: 700;
+    line-height: 35px;
+    text-decoration-line: underline;
+}
+
+.flower-1 {
+    background-color: rgba(167, 33, 98, 0.15);
+    border-top-left-radius: 150px;
+    border-top-right-radius: 150px;
+    padding: 70px 70px 0 70px;
+    margin-right: 30px;
+
+}
+
+.flower-2 {
+    background-color: rgba(5, 151, 160, 0.15);
+    border-top-left-radius: 150px;
+    border-top-right-radius: 150px;
+    padding: 70px 70px 0 70px;
+    margin-right: 30px;
+}
+
+.flower-3 {
+    background-color: rgba(71, 125, 17, 0.15);
+    border-top-left-radius: 150px;
+    border-top-right-radius: 150px;
+    padding: 70px 70px 0 70px;
+
+}
+
+.flowers {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding-right: 100px;
+}
+
+.deal-container {
+    width: 100%;
+    height: 500px;
+    padding: 0;
+    border-radius: 10px;
+    background: rgba(229, 84, 115, 0.05);
+    display: flex;
+}
+
+.deal-titale {
+    margin: 50px;
+    padding: 50px;
+    font-family: Lato;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+}
+
+.deal-titale p {
+    color: rgba(39, 39, 39, 0.60);
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.deal-image {
+    margin: 15px;
+    padding: 40px;
+}
+
+.insta-image {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.insta-titale h3 {
+    color: #272727;
+    text-align: center;
+    margin-top: 80px;
+    font-family: Lato;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.insta-titale p {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.insta-image {
+    width: 300px;
+    height: 350px;
+    margin-right: 20px;
+
+}
+
+/* .roses{
+    margin-right: 20px;
+}
+.kos{
+    margin-right: 20px;
+}
+.cup{
+    margin-right: 20px;  */
+}
+
+.background {
+    background-image: url('images/Rectangle\ 9.png');
+    padding: 70px 70px 70px 70px;
+    text-align: center;
+    font-family: Lato;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 200px
+}
+
+.footer-head {
+    text-align: center;
+    font-size: 24px;
+    padding: 20px 40px 0 40px;
+}
+
+.footer-item {
+    background-color: #1a0207;
+    text-align: center;
+}
+
+.footer-para {
+    color: rgb(201, 193, 193);
+    font-size: 15px;
+    line-height: 15px;
+    flex-wrap: wrap;
+    padding: 0 30px 0 30px;
+}
+
+.footer-tail {
+    color: #ebdbde;
+    padding-bottom: 40px
+}
+
+.text-flower {
+    color: #E55473;
+}
+
+.text-shop {
+    color: white;
 }
