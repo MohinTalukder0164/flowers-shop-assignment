@@ -1,6 +1,7 @@
 * {
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .header-container {
@@ -10,11 +11,14 @@
     display: flex;
     width: 100%;
     height: 850px;
+    background-image: url(images/pngwing\ 10.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: 600px;
 }
 
 .header-description {
     color: rgba(39, 39, 39, 0.60);
-    font-family: Lato;
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
@@ -28,19 +32,11 @@
 
 .header-titale {
     color: #272727;
-    font-family: Lato;
     font-size: 80px;
-    font-style: normal;
     font-weight: 700;
     line-height: normal;
 }
 
-.profile-pic {
-    margin-right: 50px;
-    width: 600px;
-    height: 750px;
-
-}
 
 .btn-primary {
     display: inline-flex;
@@ -51,10 +47,8 @@
     background: #E55473;
     border: 0;
     color: #FFF;
-    font-family: Lato;
     font-size: 20px;
     font-weight: 700;
-    line-height: normal;
 }
 
 .section title {
@@ -62,7 +56,6 @@
 }
 
 .greeting {
-    font-family: Lato;
     font-size: 80px;
     font-weight: 80px;
 }
@@ -72,16 +65,9 @@
     height: 800px;
 }
 
-.body {
-    padding: 0 140px 147px 140px;
-}
-
 .featured-container {
     padding: 100px;
-    font-family: Lato;
     font-size: 24px;
-    font-style: normal;
-    font-weight: 400;
     line-height: 30px;
 }
 
@@ -91,28 +77,26 @@
 
 .featured-flowers {
     display: flex;
-    text-align: center;
-    gap: 10px;
+    gap: 20px;
+    justify-content: center;
 }
 
-.featured-text p {
+figcaption p {
+    justify-content: center;
     display: inline;
+    text-decoration: underline;
     color: #272727;
-    text-align: center;
-    font-family: Lato;
-    font-size: 24px;
-    margin: 70px;
-    margin-top: 30px;
-    font-weight: 700;
-    line-height: 35px;
-    text-decoration-line: underline;
+    font-size: 20px;
+    margin: 50px;
+    margin-top: 20px;
+    line-height: 35px
 }
 
 .flower-1 {
     background-color: rgba(167, 33, 98, 0.15);
     border-top-left-radius: 150px;
     border-top-right-radius: 150px;
-    padding: 70px 70px 0 70px;
+    padding: 60px 60px 0 60px;
     margin-right: 30px;
 
 }
@@ -121,7 +105,7 @@
     background-color: rgba(5, 151, 160, 0.15);
     border-top-left-radius: 150px;
     border-top-right-radius: 150px;
-    padding: 70px 70px 0 70px;
+    padding: 60px 60px 0 60px;
     margin-right: 30px;
 }
 
@@ -129,7 +113,7 @@
     background-color: rgba(71, 125, 17, 0.15);
     border-top-left-radius: 150px;
     border-top-right-radius: 150px;
-    padding: 70px 70px 0 70px;
+    padding: 60px 60px 0 60px;
 
 }
 
@@ -152,7 +136,6 @@
 .deal-titale {
     margin: 50px;
     padding: 50px;
-    font-family: Lato;
     font-size: 24px;
     font-weight: 400;
     line-height: 30px;
@@ -161,7 +144,6 @@
 
 .deal-titale p {
     color: rgba(39, 39, 39, 0.60);
-    font-family: Lato;
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
@@ -172,17 +154,10 @@
     padding: 40px;
 }
 
-.insta-image {
-    justify-content: center;
-    align-items: center;
-    display: flex;
-}
-
 .insta-titale h3 {
     color: #272727;
     text-align: center;
     margin-top: 80px;
-    font-family: Lato;
     font-size: 40px;
     font-weight: 800;
 }
@@ -190,34 +165,24 @@
 .insta-titale p {
     color: rgba(39, 39, 39, 0.60);
     text-align: center;
-    font-family: Lato;
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
 }
 
 .insta-image {
-    width: 300px;
-    height: 350px;
-    margin-right: 20px;
-
-}
-
-/* .roses{
-    margin-right: 20px;
-}
-.kos{
-    margin-right: 20px;
-}
-.cup{
-    margin-right: 20px;  */
+    display: flex;
+    justify-content: center;
+    gap: 20px;
 }
 
 .background {
+    justify-content: center;
     background-image: url('images/Rectangle\ 9.png');
-    padding: 70px 70px 70px 70px;
+    background-repeat: no-repeat;
+    margin-top: 50px;
+    padding: 240px;
     text-align: center;
-    font-family: Lato;
     font-size: 24px;
     font-style: normal;
     font-weight: 200px
